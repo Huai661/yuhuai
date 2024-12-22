@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast Toast Details</title>
+    <meta name="description" content="Delicious and healthy breakfast toast options, including avocado toast, nut butter toast, yogurt berry toast, and egg spinach toast.">
+    <link rel="stylesheet" href="EggToast.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Impact.html">Impact</a>
+        <a href="menu.html">Menu</a>
+        <a href="JobsDetails.html">Jobs Details</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="property-details">
+            <h1>Breakfast Toast</h1>
+            <p>Discover our delicious and nutritious toast options, perfect for any time of day!</p>
+            
+            <!-- JavaScript Toggle Buttons -->
+            <div class="toast-options">
+                <button onclick="showDetails('avocado')">Avocado Toast</button>
+                <button onclick="showDetails('nut-butter')">Nut Butter & Banana Toast</button>
+                <button onclick="showDetails('yogurt')">Greek Yogurt & Berry Toast</button>
+                <button onclick="showDetails('egg-spinach')">Egg & Spinach Toast</button>
+            </div>
+            
+            <!-- Toast Details Sections -->
+            <div id="avocado" class="toast-details">
+                <img src="Breakfast Toast.jpg" alt="Avocado Toast">
+                <h2>Avocado Toast</h2>
+                <p><strong>Base:</strong> Whole-grain or sourdough bread.<br>
+                <strong>Spread:</strong> Mashed avocado with salt, pepper, and lemon.<br>
+                <strong>Toppings:</strong> Cherry tomatoes, poached egg, and feta.<br>
+                <strong>Benefits:</strong> High in healthy fats and protein.</p>
+            </div>
+
+            <div id="nut-butter" class="toast-details">
+                <img src="BananaPeanutToast845x435OPT.jpg" alt="Nut Butter & Banana Toast">
+                <h2>Nut Butter & Banana Toast</h2>
+                <p><strong>Base:</strong> Whole-grain bread.<br>
+                <strong>Spread:</strong> Almond, peanut, or cashew butter.<br>
+                <strong>Toppings:</strong> Sliced bananas, chia seeds, and honey.<br>
+                <strong>Benefits:</strong> A source of healthy fats and energy-boosting carbs.</p>
+            </div>
+
+            <div id="yogurt" class="toast-details">
+                <img src="yogurt-toast-tiktok-685x913.jpg" alt="Greek Yogurt & Berry Toast">
+                <h2>Greek Yogurt & Berry Toast</h2>
+                <p><strong>Base:</strong> Multigrain toast.<br>
+                <strong>Spread:</strong> Plain Greek yogurt.<br>
+                <strong>Toppings:</strong> Fresh berries and granola.<br>
+                <strong>Benefits:</strong> Packed with protein, antioxidants, and probiotics.</p>
+            </div>
+
+            <div id="egg-spinach" class="toast-details">
+                <img src="Open-Faced-Breakfast-Sandwich-with-Eggs_-Spinach-and-Goat-Cheese1--9_2011.jpg" alt="Egg & Spinach Toast">
+                <h2>Egg & Spinach Toast</h2>
+                <p><strong>Base:</strong> Sourdough bread.<br>
+                <strong>Toppings:</strong> Sunny-side-up egg, wilted spinach, and pesto.<br>
+                <strong>Benefits:</strong> Provides protein and essential nutrients.</p>
+            </div>
+            
+            <!-- Price and Buy Button -->
+            <p class="price">Price: Free</p>
+            <button onclick="window.location.href='contact.html'">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function showDetails(toastId) {
+            // Hide all sections
+            const details = document.querySelectorAll('.toast-details');
+            details.forEach(detail => detail.style.display = 'none');
+
+            // Show the selected section
+            document.getElementById(toastId).style.display = 'block';
+        }
+
+        // Initialize page with Avocado Toast
+        document.addEventListener('DOMContentLoaded', () => showDetails('avocado'));
+    </script>
+</body>
+</html>

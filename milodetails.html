@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milo Details</title>
+    <link rel="stylesheet" href="milo.css"> 
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Impact.html">Impact</a>
+        <a href="menu.html">Menu</a>
+        <a href="Jobs Details.html">Jobs Details</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="property-details">
+            <img src="milo.webp" alt="A cup of Milo drink">
+            <h1>Milo</h1>
+            <p>Milo was first developed in 1934 by Thomas Mayne, a chemist working for Nestlé in Australia.
+                <br>
+                <br>
+                Key Ingredients:
+                <br>
+                -Milo is made from malted barley, milk powder, cocoa, sugar, and a mix of vitamins and minerals.
+                <br>
+                -It's known for its high-energy content, making it a popular choice for growing kids and active individuals.
+                <br>
+                <img src="Coffee_MILO-_-Chocolate.avif" alt="Milo chocolate drink">
+                <br>
+                How It's Consumed: 
+                <br>
+                -Milo can be mixed with hot or cold milk or water, depending on preference.
+                <br>
+                <br>
+                Nutritional Benefits: 
+                <br>
+                -Enriched with vitamins like B2, B3, and B6, as well as calcium, iron, and magnesium.
+                <br>
+                <br>
+                Global Popularity: 
+                <br>
+                -Widely consumed in countries like Australia, Malaysia, Singapore, Nigeria, the Philippines, and Brazil.
+                <br>
+                <img src="39.avif" alt="Various Milo products">
+                <br>
+                Varieties: 
+                <br>
+                -Milo comes in various forms, including powder, ready-to-drink cans, and snack bars.
+            </p>
+            <p>Price: Free</p>
+            <button onclick="window.location.href='contact.html'">Buy Now</button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript function to handle the Buy Now button click
+        document.getElementById('buyNowBtn').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default anchor behavior
+            alert('Thank you for your interest in buying Milo!'); // Show an alert
+            // You can redirect to the buy page if needed
+            // window.location.href = 'buy.html';
+        });
+    </script>
+</body>
+</html>

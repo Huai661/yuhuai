@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Frequently Asked Questions</title>
+    <style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #ff5722;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* FAQ Items */
+.faq-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color: #f1f1f1;
+}
+
+.faq-item h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff5722;
+    padding-bottom: 5px;
+}
+
+.faq-item p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.faq-item a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+
+    .container {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .faq-item {
+        padding: 15px;
+    }
+
+    .faq-item h2 {
+        font-size: 1.3rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Impact.html">Impact</a>
+        <a href="Events.html">Events</a>
+        <a href="menu.html">Menu</a>
+        <a href="Jobs Details.html">Jobs Details</a>
+        <a href="contact.html">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+    </nav>
+    <header>
+        <h1>Frequently Asked Questions (FAQ)</h1>
+    </header>
+
+    <div class="container">
+        <div class="faq-item">
+            <h2>How do I donate?</h2>
+            <p>Donating is easy! Simply visit our <a href="contact.html">donation page</a> and choose your preferred donation amount. You can donate via credit card, PayPal, or check.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>Where does the food come from?</h2>
+            <p>The food we distribute comes from local grocery stores, food banks, and individual donations. We work closely with partners to ensure that all food is fresh and safe for consumption.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>How can I volunteer?</h2>
+            <p>We welcome volunteers to help with food sorting, distribution, and other activities. Visit our <a href="https://docs.google.com/forms/d/1l-7af8iHyxCFVLPS6bowtckK8mKlxN6CWHI9h-_eO2I/edit" target="_blank">volunteer page</a> to sign up and get more information on how you can help.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Organization. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

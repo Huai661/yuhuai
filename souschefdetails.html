@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sous Chef Details</title>
+    <link rel="stylesheet" href="sous_chef.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container for main content */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 15px;
+        }
+
+        /* Section for Property Details */
+        .property-details {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 30px;
+        }
+
+        .property-details img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .property-details h1 {
+            color: #ff5722;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+
+        .property-details p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .property-details strong {
+            color: #ff5722;
+        }
+
+        /* Button Styling */
+        button {
+            display: block;
+            background-color: #ff5722;
+            color: white;
+            font-size: 1.1rem;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            margin: 30px auto 0;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e64a19;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .property-details {
+                padding: 20px;
+            }
+
+            nav {
+                padding: 0.5rem;
+            }
+
+            nav a {
+                font-size: 1rem;
+                margin: 0 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Impact.html">Impact</a>
+        <a href="Events.html">Events</a>
+        <a href="menu.html">Menu</a>
+        <a href="Jobs Details.html">Jobs Details</a>
+        <a href="contact.html">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="property-details">
+            <img src="Robyns-Blog-Template-2000-1333-px--2022-12-15T142737641-phpafplIq.jpg" alt="Sous Chef">
+            <h1>Sous Chef</h1>
+            <p>
+                <strong>Key Responsibilities:</strong>
+                <br><br>
+                1. <strong>Food Preparation</strong><br>
+                - Prepping Ingredients: Washes, chops, marinates, and organizes ingredients before cooking begins.<br>
+                - Plating Dishes: Assembles dishes to the chef's specifications, focusing on presentation and consistency.<br>
+                - Basic Cooking Tasks: Handles simpler cooking duties such as grilling, frying, or heating sauces.<br><br>
+                2. <strong>Maintaining Cleanliness and Organization</strong><br>
+                - Sanitization: Keeps the kitchen area and tools clean to meet health standards.<br>
+                - Inventory Arrangement: Organizes ingredients and equipment for easy access during service.<br>
+                - Waste Management: Ensures efficient disposal of kitchen waste to maintain a hygienic workspace.<br><br>
+                3. <strong>Assisting During Peak Hours</strong><br>
+                - Stock Monitoring: Notifies the chef or manager when supplies are low.<br>
+                - Quality Control: Double-checks ingredients for freshness and dishes for consistency.<br>
+                - Customer Interaction: Occasionally helps explain menu items or handles customer requests.<br><br>
+                <img src="Robyns-Blog-Template-2000-1333-px--2022-12-15T142846167-php5L1s3S.jpg" alt="Sous Chef in Action">
+                <br><br>
+                <strong>Impact on the Food Truck:</strong><br><br>
+                - Efficiency: Reduces the workload on the head chef, allowing for a faster and smoother operation.<br>
+                - Customer Satisfaction: Supports the team to deliver high-quality meals on time, enhancing the customer experience.<br>
+                - Team Morale: A reliable sous chef helps build a supportive and collaborative work environment.<br>
+            </p>
+            <p><strong>Salary:</strong> RM2000/month</p>
+            <button onclick="window.location.href='contact.html'">Donate Now</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Add functionality to "Donate Now" button
+        document.getElementById('donateNowBtn').addEventListener('click', function () {
+            // Show an alert confirming donation action
+            alert("Thank you for your generous donation! You will now be redirected.");
+            
+            // Redirect to donation page (replace with actual donation link)
+            window.location.href = "donate.html";
+        });
+    </script>
+</body>
+</html>

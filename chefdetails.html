@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Details</title>
+    <link rel="stylesheet" href="chef.css">
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .property-details {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .property-details img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .property-details h1 {
+            color: #ff5722;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .property-details p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .property-details strong {
+            color: #ff5722;
+        }
+
+        button {
+            display: block;
+            background-color: #ff5722;
+            color: white;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 200px;
+            margin: 2rem auto;
+        }
+
+        button:hover {
+            background-color: #e64a19;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Impact.html">Impact</a>
+        <a href="Events.html">Events</a>
+        <a href="menu.html">Menu</a>
+        <a href="Jobs Details.html">Jobs Details</a>
+        <a href="contact.html">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+    </nav>
+
+    <!-- Chef Details Container -->
+    <div class="container">
+        <div class="property-details">
+            <img src="How_much_can_a_culinary_chef_make.jpg" alt="Chef">
+            <h1>Chef</h1>
+            <p>
+                <strong>Key Responsibilities:</strong><br><br>
+                <strong>1. Preparing and Cooking Food</strong><br>
+                - Menu Execution: Prepares dishes as per the menu, ensuring each item matches the established recipe and standards.<br>
+                - Adaptability: Handles variations in customer orders, such as dietary restrictions or preferences.<br>
+                - Efficiency: Works quickly during peak hours to serve customers without compromising quality.<br><br>
+                
+                <strong>2. Ensuring Food Quality and Hygiene</strong><br>
+                - Freshness: Selects and uses high-quality, fresh ingredients to maintain food standards.<br>
+                - Hygiene Compliance: Adheres to strict food safety regulations, including proper storage, cooking, and serving temperatures.<br>
+                - Presentation: Focuses on the visual appeal of each dish, even in the fast-paced environment of a food truck.<br><br>
+
+                <strong>3. Innovating Recipes</strong><br>
+                - Creative Development: Experiments with new recipes or variations to keep the menu exciting and appealing.<br>
+                - Customer Feedback: Incorporates suggestions from customers to refine dishes or create specials.<br>
+                - Seasonal Menus: Introduces items based on seasonal ingredients or trends to keep offerings fresh.<br><br>
+            </p>
+
+            <img src="images (7).jpeg" alt="Chef Impact">
+            
+            <p>
+                <strong>Impact on the Food Truck:</strong><br><br>
+                - Brand Identity: A chef's unique style and creativity can define the food truck's theme and attract loyal customers.<br>
+                - Revenue Growth: High-quality, innovative dishes can boost repeat business and word-of-mouth referrals.<br>
+                - Customer Experience: A skilled chef enhances the overall dining experience, turning casual visitors into fans.<br><br>
+            </p>
+
+            <p><strong>Salary:</strong> RM3000/month</p>
+            
+            <!-- Join Now Button -->
+            <button onclick="window.location.href='contact.html'">Donate Now</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Add functionality to "Join Now" button
+        document.getElementById('joinNowBtn').addEventListener('click', function() {
+            // Show a confirmation alert
+            alert("Thank you for your interest! You will be redirected to the join form.");
+            
+            // Redirect to a join page (replace with your own URL)
+            window.location.href = "join.html";
+        });
+    </script>
+</body>
+</html>

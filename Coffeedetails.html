@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Details</title>
+    <link rel="stylesheet" href="coffee.css">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Impact.html">Impact</a>
+        <a href="menu.html">Menu</a>
+        <a href="Jobs Details.html">Jobs Details</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Container for Coffee Details -->
+    <div class="container">
+        <div class="property-details">
+            <img src="coffee-latte-art-in-cup.jpg" alt="Coffee">
+            <h1>Coffee</h1>
+            <p>
+                The history of coffee dates back over a thousand years.<br>
+                Legend has it that Ethiopian goat herder Kaldi first discovered the stimulating effects of coffee after noticing his goats becoming energetic after eating red berries from a certain plant.
+            </p>
+            <br>
+            <h3>Types of Coffee we sell:</h3>
+
+            <h4>1. Espresso</h4>
+            <img src="what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg" alt="Espresso">
+            <p>
+                - A strong, concentrated shot of coffee brewed by forcing hot water through finely-ground coffee beans.<br>
+                - Forms the base for many other coffee drinks.
+            </p>
+
+            <h4>2. Americano</h4>
+            <img src="images (4).jpeg" alt="Americano">
+            <p>
+                - Espresso diluted with hot water, giving it a milder flavor while retaining the espresso boldness.
+            </p>
+
+            <h4>3. Latte</h4>
+            <img src="coffee-latte-art-in-cup.jpg" alt="Latte">
+            <p>
+                - A creamy coffee made with one shot of espresso and steamed milk, topped with a thin layer of foam.
+            </p>
+
+            <h4>4. Cappuccino</h4>
+            <img src="images (5).jpg" alt="Cappuccino">
+            <p>
+                - Equal parts espresso, steamed milk, and milk foam, often dusted with cocoa or cinnamon.
+            </p>
+
+            <!-- Coffee Price -->
+            <p><strong>Price:</strong> Free</p>
+
+            <!-- Buy Now Button -->
+            <button onclick="window.location.href='contact.html'">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Add functionality to "Buy Now" button
+        document.getElementById('buyNowBtn').addEventListener('click', function() {
+            // Show an alert to confirm purchase
+            alert("Thank you for your order! You will be redirected to the purchase page.");
+            
+            // Redirect to a purchase page (replace with your own URL)
+            window.location.href = "purchase.html";
+        });
+    </script>
+</body>
+</html>

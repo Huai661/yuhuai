@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waffle Details</title>
+    <link rel="stylesheet" href="waffle.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Impact.html">Impact</a>
+        <a href="menu.html">Menu</a>
+        <a href="Jobs Details.html">Jobs Details</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Waffle Details Section -->
+    <div class="container">
+        <div class="property-details">
+            <img src="Waffle.jpg" alt="Waffle">
+            <h1>Waffle</h1>
+            <p>
+                Waffles are made from a batter or dough cooked between two patterned plates, creating their distinctive ridges and pockets.<br>
+                These pockets make waffles perfect for holding toppings, from syrups to fruits, or even savory accompaniments.
+            </p>
+            <h3>Types of Waffles we sell:</h3>
+
+            <h4>1. Belgian Waffles</h4>
+            <img src="belgian-waffle-recipe-003.jpg" alt="Belgian Waffles">
+            <p>- Known for their deep pockets and light, fluffy texture.<br>- Often served with whipped cream, fresh fruit, and powdered sugar.</p>
+
+            <h4>2. American Waffles</h4>
+            <img src="images (1).jpeg" alt="American Waffles">
+            <p>- Thinner with smaller pockets.<br>- Great for breakfast, often paired with butter and syrup or fried chicken.</p>
+
+            <h4>3. Liege Waffles</h4>
+            <img src="images (2).jpg" alt="Liege Waffles">
+            <p>- A richer, denser variation with caramelized pearl sugar.<br>- Commonly enjoyed as a snack or dessert.</p>
+
+            <h4>4. Savory Waffles</h4>
+            <img src="images (3).jpeg" alt="Savory Waffles">
+            <p>- Made with ingredients like cheese, herbs, or even mashed potatoes.<br>- Perfect for pairing with eggs, smoked salmon, or stews.</p>
+
+            <!-- Price and Buy Button -->
+            <p><strong>Price:</strong> Free</p>
+            <button onclick="window.location.href='contact.html'">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Add functionality to the "Buy Now" button
+        document.getElementById('buyNowBtn').addEventListener('click', function () {
+            // Show confirmation message
+            alert("Thank you for choosing our waffles! Redirecting you to the purchase page...");
+
+            // Redirect to a purchase page (replace with your own URL or file name)
+            window.location.href = "purchase.html";
+        });
+    </script>
+</body>
+</html>
